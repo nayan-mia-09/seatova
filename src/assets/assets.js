@@ -156,12 +156,16 @@ import fifa_photo_1 from './fifa_1.jpg'
 import fifa_photo_2 from './fifa_2.jpg'
 import fifa_photo_3 from './fifa_3.jpg'
 import fifa_photo_4 from './fifa_4.jpg'
+import cross_icon from './close.png'
+import menu_icon from './menu.png'
 
 const assets = {
   fifa_photo_1,
   fifa_photo_2,
   fifa_photo_3,
-  fifa_photo_4
+  fifa_photo_4,
+  cross_icon,
+  menu_icon
 }
 
 export default assets;

@@ -11,12 +11,17 @@ import TeamPage from "./pages/TeamPage"
 import AllTicket from "./pages/AllTicket"
 import AllFootballTeams from "./pages/AllFootballTeams"
 import TopClub from "./pages/TopClub"
+import TopHeader from "./components/TopHeader"
+import Navbar from "./components/Navbar"
 
 
 const App = () => {
   return (
     <>
+    
     <BrowserRouter>
+    <TopHeader/>
+    <Navbar/>
     <Routes>
       <Route path="/" element = {<Home/>}/>
       <Route path="/about" element={<About/>}/>
