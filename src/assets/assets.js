@@ -183,8 +183,8 @@ export const topTeamsData = [
     captain: "Lionel Messi",
     founded: 1893,
     description:
-      "Argentina is one of the most successful national teams in football history, winning multiple FIFA World Cups and Copa America titles.",
-    play_style: "Attacking, creative, possession-based",
+      "Argentina is currently one of the most dominant forces in international football, combining technical brilliance with strong team chemistry. The team reached the peak of world football by winning the FIFA World Cup in 2022, proving their ability to perform under immense pressure. Argentina is known for its balanced style of play, where a solid defensive structure supports a creative and dynamic midfield. Their attacking approach is fluid, often relying on quick passing, intelligent movement, and clinical finishing. Over the years, Argentina has built a reputation for producing world-class players and maintaining a competitive edge in major tournaments. The team also demonstrates exceptional mental strength, often making comebacks in difficult matches. Their tactical discipline and ability to adapt to different opponents make them extremely dangerous. With a mix of experienced leaders and young talents, Argentina continues to evolve while staying true to its footballing identity. They remain one of the top contenders in every international competition they participate in.",
+      play_style: "Technical, creative, possession-based attacking football",
     popularity: 10
   },
 
@@ -200,7 +200,8 @@ export const topTeamsData = [
     captain: "Casemiro",
     founded: 1914,
     description:
-      "Brazil is the most successful national team in World Cup history, known for its flair, creativity, and attacking football.",
+      "Brazil is one of the most iconic and successful teams in football history, known for its attacking flair and technical excellence. The team has won multiple FIFA World Cups, establishing itself as a global powerhouse. Brazil’s style of play is built on creativity, skill, and freedom of expression, making their matches exciting to watch. They are famous for producing legendary players who have shaped the history of the sport. Brazil typically plays an attacking game, focusing on dribbling, quick combinations, and goal-scoring opportunities. Despite their offensive focus, the team has also improved defensively in recent years, making them more balanced. Their ability to control possession and dictate the pace of the game gives them an advantage against most opponents. Brazil’s football culture emphasizes passion and confidence, which is reflected in their performances on the field. As they continue to develop new talent, Brazil remains a strong and consistent contender in international football.",
+
     play_style: "Skillful, attacking, samba style",
     popularity: 10
   },
@@ -217,7 +218,7 @@ export const topTeamsData = [
     captain: "Kylian Mbappe",
     founded: 1904,
     description:
-      "France is a modern powerhouse with incredible squad depth and a mix of youth and experience.",
+      "France is widely regarded as one of the most complete football teams in the modern era. Known for its depth, athleticism, and tactical versatility, the team consistently performs at the highest level in international competitions. France combines physical strength with technical skill, allowing them to dominate both defensively and offensively. Their squad is filled with world-class players who can change the outcome of a match at any moment. The team has a strong defensive foundation, complemented by a fast and explosive attacking line. France is particularly dangerous on counterattacks, using speed and precision to break through opposing defenses. Over the years, they have developed a winning mentality, often reaching the final stages of major tournaments. Their ability to maintain consistency, even during high-pressure situations, sets them apart from many other teams. With a perfect blend of youth and experience, France continues to be a top contender for every major trophy in world football.",
     play_style: "Balanced, counter-attacking",
     popularity: 9
   },
@@ -234,7 +235,7 @@ export const topTeamsData = [
     captain: "Harry Kane",
     founded: 1863,
     description:
-      "England has a rich football history and continues to produce world-class talent.",
+      "England has transformed into a highly competitive team in recent years, combining traditional strength with modern tactical approaches. The team is known for its structured gameplay, physical presence, and disciplined defense. England has developed a strong squad with players who perform consistently at both club and international levels. Their attacking strategy focuses on quick transitions, effective wing play, and set-piece efficiency. The team has shown significant improvement in major tournaments, reaching advanced stages and competing against top opponents. England’s defensive organization is one of its key strengths, allowing them to maintain control even in high-pressure situations. They also have a strong midfield that connects defense and attack effectively. With a growing number of young talents and experienced leaders, England is building a solid foundation for long-term success. Their confidence and consistency make them a serious contender in international football competitions.",
     play_style: "Fast-paced, physical, crossing",
     popularity: 9
   },
@@ -251,7 +252,7 @@ export const topTeamsData = [
     captain: "Alvaro Morata",
     founded: 1913,
     description:
-      "Spain dominated world football with their tiki-taka style and technical brilliance.",
+      "Spain is known for its possession-based style of football, often referred to as “tiki-taka.” The team focuses on short passing, movement, and maintaining control of the game. Spain’s midfield is typically its strongest area, allowing them to dominate possession and dictate the pace. The team emphasizes technical skills, teamwork, and tactical awareness. Spain has achieved great success in international football, winning multiple major tournaments. Their defensive organization supports their attacking approach, creating a balanced system. The team also excels in building plays patiently, waiting for the right moment to attack. Spain’s philosophy requires high discipline and coordination among players. Despite changes in squad and management over the years, they continue to follow their core style. With a new generation of talented players, Spain remains a strong and competitive team in world football.",
     play_style: "Possession-based, short passing",
     popularity: 9
   },
@@ -268,7 +269,7 @@ export const topTeamsData = [
     captain: "Ilkay Gundogan",
     founded: 1900,
     description:
-      "Germany is known for discipline, efficiency, and strong performances in major tournaments.",
+      "Germany is one of the most successful and respected teams in football history, known for its efficiency and strong mentality. The team is recognized for its disciplined approach, tactical organization, and physical strength. Germany has a tradition of performing well in major tournaments, often reaching the final stages. Their gameplay focuses on teamwork, quick passing, and effective finishing. The team is also known for its resilience, often making comebacks in challenging situations. Germany’s development system produces high-quality players who are well-prepared for international competition. Defensively, they are structured and reliable, while their attack is direct and efficient. The team continuously evolves, adapting to modern football trends. With a mix of experienced players and young talent, Germany remains a strong force in international football.",
     play_style: "Structured, high pressing",
     popularity: 9
   },
@@ -285,7 +286,7 @@ export const topTeamsData = [
     captain: "Cristiano Ronaldo",
     founded: 1914,
     description:
-      "Portugal blends experienced legends with exciting young talents.",
+      "Portugal is a well-balanced team known for its strong defensive structure and effective attacking options. The team has achieved significant success in international competitions, including winning major tournaments. Portugal combines experienced players with emerging talents, creating a dynamic and competitive squad. Their gameplay focuses on organization, discipline, and strategic attacking. The team is particularly effective in counterattacks, using speed and precision to exploit defensive gaps. Portugal’s defense is solid, often limiting opportunities for opponents. In midfield, they maintain control and distribute the ball efficiently. The team’s ability to perform under pressure and secure results in crucial matches is one of its key strengths. Portugal also demonstrates tactical flexibility, adjusting its approach based on the situation. With a strong footballing culture and continuous development of talent, Portugal remains one of the top teams in international football.",
     play_style: "Counter-attacking, flexible",
     popularity: 9
   },
@@ -302,7 +303,7 @@ export const topTeamsData = [
     captain: "Kevin De Bruyne",
     founded: 1895,
     description:
-      "Belgium’s golden generation made them one of the strongest teams in recent years.",
+      "Belgium has been one of the top-ranked teams in international football over the past decade, thanks to its highly talented squad. Often referred to as a “golden generation,” the team features exceptional players in every position. Belgium is known for its strong midfield control, precise passing, and attacking efficiency. Their gameplay focuses on maintaining possession and creating scoring opportunities through intelligent movement. The team has consistently performed well in major tournaments, often reaching the later stages. Despite facing challenges in securing major titles, Belgium remains a formidable opponent. Their defensive structure has improved over time, making them more balanced overall. Belgium also demonstrates tactical flexibility, adapting their style based on the opponent. With experienced players leading the squad and young talents emerging, the team continues to evolve. Their commitment to high-quality football and consistent performances keeps them among the top teams in the world.",
     play_style: "Attacking, creative midfield",
     popularity: 8
   },
@@ -319,7 +320,7 @@ export const topTeamsData = [
     captain: "Virgil van Dijk",
     founded: 1889,
     description:
-      "Netherlands is famous for Total Football and developing world-class players.",
+      "The Netherlands is known for its rich footballing philosophy, particularly the concept of “Total Football,” which emphasizes versatility and fluid movement. The team is technically strong and tactically intelligent, capable of adapting to different styles of play. The Netherlands focuses on building attacks from the back, maintaining possession, and controlling the tempo of the game. Their players are well-trained in multiple positions, allowing for flexibility during matches. The team has a strong tradition of developing young talent, ensuring a steady flow of skilled players. Defensively, they are organized and disciplined, making it difficult for opponents to break through. The Netherlands also excels in quick transitions, turning defense into attack efficiently. Their ability to combine creativity with structure makes them a dangerous team. Although they have faced ups and downs in recent years, they continue to be a strong contender in international football.",
     play_style: "Attacking, total football",
     popularity: 8
   },
@@ -336,7 +337,7 @@ export const topTeamsData = [
     captain: "Romain Saiss",
     founded: 1955,
     description:
-      "Morocco gained global recognition after a historic World Cup semi-final run.",
+      "Morocco has emerged as one of the most exciting and rapidly improving teams in international football. The team gained global recognition after their historic performance in the 2022 FIFA World Cup, where they became the first African and Arab nation to reach the semi-finals. This achievement highlighted Morocco’s tactical discipline, defensive strength, and strong team unity. They are known for their compact defensive structure, making it difficult for opponents to create scoring opportunities. At the same time, Morocco is highly effective on counterattacks, using speed and precision to exploit gaps in the opposition’s defense.The team combines experienced players with young talents, creating a balanced and competitive squad. Their midfield plays a crucial role in controlling the tempo of the game, while the defense remains organized and resilient under pressure. Morocco also benefits from strong support and a passionate football culture, which motivates the players to perform at their best. Their ability to compete with top European and South American teams has earned them respect on the global stage. With continuous development and growing confidence, Morocco is expected to remain a strong contender in future international tournaments.",
     play_style: "Defensive, counter-attacking",
     popularity: 8
   }
@@ -777,7 +778,7 @@ export const topClubsData = [
   }
 ]
 
-export const allTeamsData_part1 = [
+export const allTeamsData = [
   // Group A
   {
     name: "Mexico",
