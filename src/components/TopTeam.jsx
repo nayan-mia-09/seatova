@@ -7,7 +7,7 @@ const TopTeam = () => {
   return (
     <div className="mt-5 mb-3 ">
       <h1 className="text-3xl font-bold">Top Team</h1>
-      <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5 mt-5 mb-3 items-center text-center bg-gray-50 shadow">
+      <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5 mt-5 mb-3 items-center text-center bg-gray-50 shadow cursor-pointer">
          {
             topTeamsData.map((item,index)=>(
                 <div onClick={()=>navigate(`/top-team/${item.world_rank}`)} key={index} className="m-10">

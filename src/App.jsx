@@ -14,6 +14,7 @@ import TopClub from "./pages/TopClub"
 import TopHeader from "./components/TopHeader"
 import Navbar from "./components/Navbar"
 import TopTeamPage from "./pages/TopTeamPage"
+import Sponsors from "./pages/Sponsors"
 
 
 const App = () => {
@@ -37,6 +38,7 @@ const App = () => {
       <Route path="/all-football-teams" element ={<AllFootballTeams/>}/>
       <Route path="/top-club" element ={<TopClub/>}/>
       <Route path="/top-team/:world_rank" element ={<TopTeamPage/>}/>
+      <Route path="/sponsors-details/:name" element = {<Sponsors/>}/>
     </Routes>
     </BrowserRouter>
      

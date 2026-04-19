@@ -358,18 +358,6 @@ export const topSponsorData = [
   },
 
   {
-    name: "Emirates",
-    logo: emirates_logo,
-    industry: "Airline",
-    country: "United Arab Emirates",
-    partnership_since: 2006,
-    description:
-      "Emirates is a leading global airline known for sponsoring top football clubs and international tournaments.",
-    sponsorship_type: "Official Airline Partner",
-    popularity: 10
-  },
-
-  {
     name: "Adidas",
     logo: addidas_logo,
     industry: "Sportswear",
@@ -427,18 +415,6 @@ export const topSponsorData = [
       "Visa is a global payments technology company and a key FIFA partner, enabling secure transactions worldwide.",
     sponsorship_type: "Official Payment Partner",
     popularity: 10
-  },
-
-  {
-    name: "Hyundai",
-    logo: hundai_logo,
-    industry: "Automotive",
-    country: "South Korea",
-    partnership_since: 1999,
-    description:
-      "Hyundai is a long-term FIFA sponsor, supporting football through mobility and logistics solutions.",
-    sponsorship_type: "Mobility Partner",
-    popularity: 9
   }
 ]
 
