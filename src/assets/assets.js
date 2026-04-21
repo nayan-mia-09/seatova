@@ -432,7 +432,7 @@ export const topLeaguesData = [
     current_champion: "Manchester City",
     description:
       "The Premier League is the most popular football league in the world, known for its competitiveness, global fanbase, and high-intensity matches.",
-    top_clubs: ["Manchester City", "Arsenal", "Liverpool", "Manchester United", "Chelsea"],
+    top_clubs: ["Manchester City ,", " Arsenal ,", " Liverpool ,", " Manchester United ,", " Chelsea"],
     popularity: 10
   },
 
@@ -448,7 +448,7 @@ export const topLeaguesData = [
     current_champion: "Real Madrid",
     description:
       "LaLiga is famous for its technical style of play and world-class clubs like Barcelona and Real Madrid.",
-    top_clubs: ["Real Madrid", "Barcelona", "Atletico Madrid"],
+    top_clubs: ["Real Madrid ,", " Barcelona ,", " Atletico Madrid"],
     popularity: 10
   },
 
@@ -464,7 +464,7 @@ export const topLeaguesData = [
     current_champion: "Bayern Munich",
     description:
       "The Bundesliga is known for its attacking football, fan culture, and high-scoring matches.",
-    top_clubs: ["Bayern Munich", "Borussia Dortmund", "RB Leipzig"],
+    top_clubs: ["Bayern Munich ,", " Borussia Dortmund ,", " RB Leipzig"],
     popularity: 9
   },
 
@@ -480,7 +480,7 @@ export const topLeaguesData = [
     current_champion: "Inter Milan",
     description:
       "Serie A is renowned for its tactical gameplay, defensive strength, and historic clubs.",
-    top_clubs: ["Inter Milan", "Juventus", "AC Milan", "Napoli"],
+    top_clubs: ["Inter Milan ,", " Juventus ,", " AC Milan ,", "Napoli ,"],
     popularity: 9
   },
 
@@ -496,7 +496,7 @@ export const topLeaguesData = [
     current_champion: "PSG",
     description:
       "Ligue 1 is known for developing young talents and being home to Paris Saint-Germain.",
-    top_clubs: ["PSG", "Lyon", "Marseille"],
+    top_clubs: ["PSG ,", " Lyon ,", " Marseille"],
     popularity: 8
   },
 
@@ -512,7 +512,7 @@ export const topLeaguesData = [
     current_champion: "Columbus Crew",
     description:
       "Major League Soccer is rapidly growing in popularity, attracting international stars and expanding globally.",
-    top_clubs: ["Inter Miami", "LA Galaxy", "LAFC"],
+    top_clubs: ["Inter Miami, ", " LA Galaxy ,", " LAFC"],
     popularity: 8
   },
 
@@ -528,7 +528,7 @@ export const topLeaguesData = [
     current_champion: "Benfica",
     description:
       "Liga Portugal is known for producing world-class talents and competitive top clubs.",
-    top_clubs: ["Benfica", "Porto", "Sporting CP"],
+    top_clubs: ["Benfica ,", " Porto ,", " Sporting CP"],
     popularity: 7
   },
 
@@ -544,7 +544,7 @@ export const topLeaguesData = [
     current_champion: "Palmeiras",
     description:
       "Brazil Serie A is one of the strongest leagues in South America, known for skillful and attacking football.",
-    top_clubs: ["Flamengo", "Palmeiras", "Santos"],
+    top_clubs: ["Flamengo ,", " Palmeiras ,", " Santos"],
     popularity: 8
   },
 
@@ -560,7 +560,7 @@ export const topLeaguesData = [
     current_champion: "Leicester City",
     description:
       "The EFL Championship is one of the most competitive second-tier leagues in the world.",
-    top_clubs: ["Leicester City", "Leeds United", "Southampton"],
+    top_clubs: ["Leicester City ,", " Leeds United ,", " Southampton"],
     popularity: 7
   },
 
@@ -576,7 +576,7 @@ export const topLeaguesData = [
     current_champion: "Club Brugge",
     description:
       "The Belgian Pro League is known for developing young talents and competitive domestic football.",
-    top_clubs: ["Club Brugge", "Anderlecht", "Genk"],
+    top_clubs: ["Club Brugge ,", " Anderlecht ,", " Genk"],
     popularity: 6
   }
 ]
