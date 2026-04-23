@@ -1,45 +1,34 @@
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper/modules';
 
+import 'swiper/css';
 
-
-import { Slide } from 'react-slideshow-image';
-import 'react-slideshow-image/dist/styles.css';
-import assets from '../assets/assets';
-
-
+import { heroImg } from '../assets/assets';
 
 const SlideImage = () => {
-    const images = [
-        assets.fifa_photo_1,
-        assets.fifa_photo_2,
-        assets.fifa_photo_3,
-    ];
-
-    return (
-        <div className='mt-5 p-2 '>
-    <Slide>
-            <div className="each-slide-effect text-end">
-                <div style={{ 'backgroundImage': `url(${images[0]})` }}>
-                    
-                </div>
-                <button className="border px-4 py-2 bg-white mt-5 rounded-lg hover:bg-black hover:text-white transition-all duration-300 cursor-pointer">USA</button>
-            </div>
-            <div className="each-slide-effect text-end">
-                <div style={{ 'backgroundImage': `url(${images[1]})` }}>
-                    
-                </div>
-                <button className="border px-4 py-2 bg-white mt-5 rounded-lg hover:bg-black hover:text-white transition-all duration-300 cursor-pointer">Canada</button>
-            </div>
-            <div className="each-slide-effect text-end">
-                <div style={{ 'backgroundImage': `url(${images[2]})` }}>
-                    
-                </div>
-                <button className="border px-4 py-2 bg-white mt-5 rounded-lg hover:bg-black hover:text-white transition-all duration-300 cursor-pointer">Mexico</button>
-            </div>
-        </Slide>
-
-        </div>
-        
-    );
+  return (
+    <Swiper
+      slidesPerView={1} // ✅ only one image
+      spaceBetween={0}
+      modules={[Autoplay]}
+      autoplay={{
+        delay: 3000, // 3 seconds
+        disableOnInteraction: false,
+      }}
+      loop={true}
+      className="mySwiper w-full"
+    >
+      {heroImg.map((item, index) => (
+        <SwiperSlide key={index}>
+          <div className="relative">
+            <img
+          src={item.photo} alt="" className="w-full h-[200px] md:h-[400px] object-cover"/>
+            <button className="absolute bottom-3 left-3 md:bottom-5 md:left-5 text-white text-sm md:text-xl font-bold bg-gray-500 px-4 py-2 rounded">{item.name}</button>
+          </div>
+        </SwiperSlide>
+      ))}
+    </Swiper>
+  );
 };
 
 export default SlideImage;

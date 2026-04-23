@@ -168,6 +168,18 @@ const assets = {
   menu_icon
 }
 
+export const heroImg = [
+  {name: "USA",
+   photo: fifa_photo_1
+  },
+  {name: "CANADA",
+    photo: fifa_photo_2,
+  },
+  {name: "Mexico",
+    photo: fifa_photo_3
+  }
+]
+
 export default assets;
 // Top Teams Data
 export const topTeamsData = [

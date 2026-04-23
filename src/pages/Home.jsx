@@ -7,7 +7,7 @@ import TopLeague from "./TopLeague"
 
 const Home = () => {
   return (
-    <div className="container mx-auto ">
+    <div className="container mx-auto">
       <Hero/>
       <TopTeam/>
       <TopSponsors/>
