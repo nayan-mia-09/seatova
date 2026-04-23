@@ -159,6 +159,12 @@ import fifa_photo_4 from './fifa_4.jpg'
 import cross_icon from './close.png'
 import menu_icon from './menu.png'
 
+import aston_news from './aston_news.avif'
+import barca_news from './barca_news.jpg'
+import celtics_news from './celtics_news.webp'
+import estadio_news from './estadio_news.webp'
+import leicester_news from './leicester_news.jpg'
+import newcastle_news from './newcastle_news.avif'
 const assets = {
   fifa_photo_1,
   fifa_photo_2,
@@ -770,6 +776,7 @@ export const footballNewsData = [
   {
     id: 1,
     title: "Barcelona Ready for Crucial La Liga Clash",
+    photo: barca_news,
     shortDes: "Barcelona prepare for a key match as they push for the league title.",
     description: "Barcelona are preparing for a decisive La Liga encounter against Celta Vigo as they aim to strengthen their position at the top of the table. Following a disappointing Champions League exit, the team is now fully focused on domestic success. Manager Xavi has emphasized consistency, while key players are returning to form at a crucial stage of the season.",
     date: "2026-04-22"
@@ -777,6 +784,7 @@ export const footballNewsData = [
   {
     id: 2,
     title: "Aston Villa Targets Alejandro Balde Transfer",
+    photo: aston_news,
     shortDes: "Aston Villa plan a big-money move for Barcelona's young defender.",
     description: "Aston Villa are reportedly preparing a €50 million bid to sign Barcelona's young left-back Alejandro Balde in the upcoming summer transfer window. The Premier League side sees Balde as a long-term investment to strengthen their defensive line. Negotiations are expected to intensify as Villa push to compete at a higher level next season.",
     date: "2026-04-22"
@@ -784,6 +792,7 @@ export const footballNewsData = [
   {
     id: 3,
     title: "Leicester City Relegated After Financial Struggles",
+    photo: leicester_news,
     shortDes: "Leicester City suffer relegation after financial issues.",
     description: "Leicester City have suffered a major setback after being relegated to League One due to financial instability and a significant points deduction. Once Premier League champions, the club has faced ongoing financial issues, leading to squad changes and poor performances. The relegation marks a dramatic fall and raises serious questions about the club’s future.",
     date: "2026-04-22"
@@ -791,6 +800,7 @@ export const footballNewsData = [
   {
     id: 4,
     title: "Celtic Gains Momentum in Title Race",
+    photo: celtics_news,
     shortDes: "Celtic boost their chances in the title race with strong form.",
     description: "Celtic have gained strong momentum in the Scottish Premiership title race following an impressive run in the Scottish Cup. The squad is showing renewed confidence, with key players delivering consistent performances. Fans are optimistic as the team looks well-positioned to secure both domestic trophies this season.",
     date: "2026-04-22"
@@ -798,6 +808,7 @@ export const footballNewsData = [
   {
     id: 5,
     title: "Newcastle Faces Tough Test Against Bournemouth",
+    photo: newcastle_news,
     shortDes: "Newcastle aim to recover form in a challenging upcoming match.",
     description: "Newcastle United are set to face Bournemouth in a crucial Premier League fixture as they attempt to recover from recent inconsistent performances. Injuries and squad rotation have affected their rhythm, but the upcoming match presents an opportunity to regain confidence and climb the league standings.",
     date: "2026-04-19"
@@ -805,6 +816,7 @@ export const footballNewsData = [
   {
     id: 6,
     title: "Estadio Azteca Prepares for Cashless World Cup",
+    photo: estadio_news,
     shortDes: "The historic stadium moves toward a fully digital payment system.",
     description: "Mexico's iconic Estadio Azteca is transitioning to a fully cashless payment system in preparation for the upcoming FIFA World Cup. The move aims to improve fan experience and streamline transactions within the stadium. However, challenges remain in ensuring reliable digital infrastructure and accessibility for all attendees.",
     date: "2026-04-23"
