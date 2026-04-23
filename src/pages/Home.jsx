@@ -1,6 +1,7 @@
 import Hero from "../components/Hero"
 import TopSponsors from "../components/TopSponsors"
 import TopTeam from "../components/TopTeam"
+import TopClub from "./TopClub"
 import TopLeague from "./TopLeague"
 
 
@@ -12,6 +13,7 @@ const Home = () => {
       <TopTeam/>
       <TopSponsors/>
       <TopLeague/>
+      <TopClub/>
       
       
     </div>
