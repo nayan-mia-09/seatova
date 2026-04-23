@@ -12,7 +12,7 @@ const Navbar = () => {
     <div className="flex justify-between items-center container mx-auto mt-5">
 
   <div className="flex gap-5 items-center">
-    <h1 className="text-3xl font-bold text-pink-500">🎟️SeatOva</h1>
+    <h1 onClick={()=>navigate('/')} className="text-3xl font-bold text-pink-500 cursor-pointer">🎟️SeatOva</h1>
 
     <ul className="hidden md:flex gap-3">
       {/* nav links */}

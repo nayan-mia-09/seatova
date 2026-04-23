@@ -1,4 +1,5 @@
 import Hero from "../components/Hero"
+import NewsCard from "../components/NewsCard"
 import TopSponsors from "../components/TopSponsors"
 import TopTeam from "../components/TopTeam"
 import TopClub from "./TopClub"
@@ -14,6 +15,7 @@ const Home = () => {
       <TopSponsors/>
       <TopLeague/>
       <TopClub/>
+      <NewsCard/>
       
       
     </div>
