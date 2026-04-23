@@ -1,5 +1,6 @@
 import Hero from "../components/Hero"
 import NewsCard from "../components/NewsCard"
+import ReviewPost from "../components/ReviewPost"
 import TopSponsors from "../components/TopSponsors"
 import TopTeam from "../components/TopTeam"
 import TopClub from "./TopClub"
@@ -16,7 +17,7 @@ const Home = () => {
       <TopLeague/>
       <TopClub/>
       <NewsCard/>
-      
+      <ReviewPost/>
       
     </div>
   )

@@ -822,6 +822,100 @@ export const footballNewsData = [
     date: "2026-04-23"
   }
 ];
+
+// Customer Review 
+export const customerReview = [
+  {
+    id: 1,
+    name: "Rahim Ahmed",
+    rating: "☆☆☆☆☆",
+    date: "2026-04-20",
+    firstImpression: "Amazing experience!",
+    description:
+      "Booking tickets was super easy and fast. Highly recommended!",
+  },
+  {
+    id: 2,
+    name: "Sadia Khan",
+    rating: "☆☆☆☆☆",
+    date: "2026-04-18",
+    firstImpression: "Very smooth service",
+    description:
+      "I got my ticket without any hassle. The process was quick and easy.",
+  },
+  {
+    id: 3,
+    name: "Imran Hossain",
+    rating: "☆☆☆☆☆",
+    date: "2026-04-15",
+    firstImpression: "Loved it!",
+    description:
+      "Best platform for football tickets. Everything worked perfectly.",
+  },
+  {
+    id: 4,
+    name: "Nusrat Jahan",
+    rating: "☆☆☆☆☆",
+    date: "2026-04-12",
+    firstImpression: "Great experience",
+    description:
+      "Very easy to use and smooth booking system. I enjoyed using it.",
+  },
+  {
+    id: 5,
+    name: "Tanvir Hasan",
+    rating: "☆☆☆☆☆",
+    date: "2026-04-10",
+    firstImpression: "Fantastic service!",
+    description:
+      "I was able to book tickets in seconds. Very fast and reliable.",
+  },
+  {
+    id: 6,
+    name: "Farzana Akter",
+    rating: "☆☆☆☆☆",
+    date: "2026-04-08",
+    firstImpression: "Really good platform",
+    description:
+      "Modern UI and easy navigation. Loved the overall experience.",
+  },
+  {
+    id: 7,
+    name: "Mahmudul Hasan",
+    rating: "☆☆☆☆☆",
+    date: "2026-04-06",
+    firstImpression: "Excellent!",
+    description:
+      "Great experience overall. I will definitely use this again.",
+  },
+  {
+    id: 8,
+    name: "Shamima Sultana",
+    rating: "☆☆☆☆☆",
+    date: "2026-04-04",
+    firstImpression: "Very convenient",
+    description:
+      "Easy booking system and fast confirmation. Highly satisfied.",
+  },
+  {
+    id: 9,
+    name: "Rafiqul Islam",
+    rating: "☆☆☆☆☆",
+    date: "2026-04-02",
+    firstImpression: "Nice platform",
+    description:
+      "Everything worked smoothly. No major issues faced.",
+  },
+  {
+    id: 10,
+    name: "Jannatul Ferdous",
+    rating: "☆☆☆☆☆",
+    date: "2026-04-01",
+    firstImpression: "Superb!",
+    description:
+      "Loved the design and performance. Booking is very easy now.",
+  },
+];
 export const allTeamsData = [
   // Group A
   {
