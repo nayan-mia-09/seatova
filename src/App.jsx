@@ -7,7 +7,7 @@ import Football from "./pages/Football";
 import WorldCup2026 from "./pages/WorldCup2026";
 import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
-import TeamPage from "./pages/TeamPage";
+import TeamPage from "./components/TeamPage";
 import AllTicket from "./pages/AllTicket";
 import AllFootballTeams from "./pages/AllFootballTeams";
 import TopClub from "./pages/TopClub";
