@@ -2,8 +2,8 @@
 
 const SignUp = () => {
   return (
-    <div>
-      <h1>Sign Up Page</h1>
+    <div className="container mx-auto">
+      <h1>Sign Up Page Work in progress......</h1>
     </div>
   )
 }

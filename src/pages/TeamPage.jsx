@@ -2,8 +2,8 @@
 
 const TeamPage = () => {
   return (
-    <div>
-      <h1>Team Page</h1>
+    <div className="container mx-auto">
+      <h1>Team Page Work in progress......</h1>
     </div>
   )
 }

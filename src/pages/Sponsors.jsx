@@ -1,11 +1,11 @@
 
 
-import SponsorsDetails from '../components/SponsorsDetails'
+import SponsorsDetails from './SponsorsDetails'
 
 const Sponsors = () => {
   return (
     <div className='container mx-auto mt-5'>
-      <SponsorsDetails/>
+       <h1>Sponsors page Work in progress......</h1>
     </div>
   )
 }

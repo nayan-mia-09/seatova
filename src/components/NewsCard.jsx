@@ -17,8 +17,8 @@ const NewsCard = () => {
         {footballNewsData.map((item, index) => (
           <SwiperSlide key={index} onClick={()=> navigate(`/news-details/${item.id}`)}>
             <div className="bg-gray-100 p-4 rounded-xl shadow-sm hover:shadow-md transition">
-              <p className="font-semibold">{item.title}</p>
-              <p className="text-sm text-gray-600 mt-2">{item.shortDes}</p>
+              <p className="font-semibold sm:font-medium">{item.title}</p>
+              <p className="text-sm text-gray-600 mt-2 sm:text-xs">{item.shortDes}</p>
               <p className="text-xs text-gray-400 mt-3">{item.date}</p>
             </div>
           </SwiperSlide>

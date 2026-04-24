@@ -2,8 +2,8 @@
 
 const AllFootballTeams = () => {
   return (
-    <div>
-      <h1>All Teams Page</h1>
+    <div className="container mx-auto">
+      <h1>All Teams Page Work in progress......</h1>
     </div>
   )
 }

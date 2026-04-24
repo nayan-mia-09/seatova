@@ -2,8 +2,8 @@
 
 const About = () => {
   return (
-    <div>
-      <h1>About Page</h1>
+    <div className="container mx-auto">
+      <h1>About Page Work in progress......</h1>
     </div>
   )
 }

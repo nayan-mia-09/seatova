@@ -2,8 +2,8 @@
 
 const Cities = () => {
   return (
-    <div>
-      <h1>city page</h1>
+    <div className="container mx-auto">
+      <h1>city page Work in progress......</h1>
     </div>
   )
 }

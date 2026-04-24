@@ -2,8 +2,8 @@
 
 const Login = () => {
   return (
-    <div>
-      <h1>Login Page</h1>
+    <div className="container mx-auto">
+      <h1>Login Page Work in progress......</h1>
     </div>
   )
 }

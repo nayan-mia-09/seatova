@@ -9,7 +9,7 @@ const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false)
   return (
 
-    <div className="flex justify-between items-center container mx-auto mt-5">
+    <div className="flex justify-between items-center container mx-auto mt-5 mb-5">
 
   <div className="flex gap-5 items-center">
     <h1 onClick={()=>navigate('/')} className="text-3xl font-bold text-pink-500 cursor-pointer">🎟️SeatOva</h1>
