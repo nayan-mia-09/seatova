@@ -11,7 +11,7 @@ import TeamPage from "./components/TeamPage";
 import AllTicket from "./pages/AllTicket";
 import AllFootballTeams from "./pages/AllFootballTeams";
 import TopClub from "./pages/TopClub";
-import TopTeamPage from "./pages/TopTeamPage";
+import TopTeamPage from "./pages/TeamDetails";
 import LeagueDetails from "./pages/LeagueDetails";
 import TopClubsDetails from "./pages/TopClubsDetails";
 import NewsCardDetails from "./pages/NewsCardDetails";
@@ -19,6 +19,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import SponsorsDetails from "./pages/SponsorsDetails";
 import TopTeamDetails from "./pages/TopTeamDetails";
+import TeamDetails from "./pages/TeamDetails";
 
 const App = () => {
   return (
@@ -48,6 +49,7 @@ const App = () => {
             <Route path="/league-details/:league_rank" element={<LeagueDetails />} />
             <Route path="/club-details/:league_rank" element={<TopClubsDetails />} />
             <Route path="/news-details/:id" element={<NewsCardDetails />} />
+            <Route path="/team-details/:code" element={<TeamDetails/>}/>
           </Routes>
         </main>
 

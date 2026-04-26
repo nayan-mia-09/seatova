@@ -916,6 +916,7 @@ export const customerReview = [
       "Loved the design and performance. Booking is very easy now.",
   },
 ];
+//All Teams Data
 export const allTeamsData = [
   // Group A
   {
@@ -1469,4 +1470,103 @@ export const allTeamsData = [
     description: "Panama is a hardworking team known for defense and determination. They rely on structure and teamwork in matches."
   }
 
+];
+
+// All Match Tickets Data
+export const matchTickets = [
+  // GROUP A
+  { id: 1, teamCode: "MEX", opponent: "RSA", group: "A", stadium: "Azteca Stadium", date: "12 June 2026", price: "$120", available: true },
+  { id: 2, teamCode: "MEX", opponent: "KOR", group: "A", stadium: "BBVA Stadium", date: "15 June 2026", price: "$130", available: true },
+  { id: 3, teamCode: "MEX", opponent: "CZE", group: "A", stadium: "SoFi Stadium", date: "18 June 2026", price: "$140", available: true },
+  { id: 4, teamCode: "RSA", opponent: "KOR", group: "A", stadium: "MetLife Stadium", date: "20 June 2026", price: "$110", available: true },
+  { id: 5, teamCode: "RSA", opponent: "CZE", group: "A", stadium: "NRG Stadium", date: "23 June 2026", price: "$115", available: true },
+  { id: 6, teamCode: "KOR", opponent: "CZE", group: "A", stadium: "Levi's Stadium", date: "26 June 2026", price: "$125", available: true },
+
+  // GROUP B
+  { id: 7, teamCode: "CAN", opponent: "BIH", group: "B", stadium: "BMO Field", date: "12 June 2026", price: "$130", available: true },
+  { id: 8, teamCode: "CAN", opponent: "QAT", group: "B", stadium: "Mercedes-Benz Stadium", date: "15 June 2026", price: "$135", available: true },
+  { id: 9, teamCode: "CAN", opponent: "SUI", group: "B", stadium: "Rose Bowl", date: "18 June 2026", price: "$150", available: true },
+  { id: 10, teamCode: "BIH", opponent: "QAT", group: "B", stadium: "Hard Rock Stadium", date: "20 June 2026", price: "$120", available: true },
+  { id: 11, teamCode: "BIH", opponent: "SUI", group: "B", stadium: "AT&T Stadium", date: "23 June 2026", price: "$140", available: true },
+  { id: 12, teamCode: "QAT", opponent: "SUI", group: "B", stadium: "Gillette Stadium", date: "26 June 2026", price: "$145", available: true },
+
+  // GROUP C
+  { id: 13, teamCode: "BRA", opponent: "MAR", group: "C", stadium: "Maracanã Arena", date: "12 June 2026", price: "$200", available: true },
+  { id: 14, teamCode: "BRA", opponent: "HAI", group: "C", stadium: "Camping World Stadium", date: "15 June 2026", price: "$180", available: true },
+  { id: 15, teamCode: "BRA", opponent: "SCO", group: "C", stadium: "Lumen Field", date: "18 June 2026", price: "$190", available: true },
+  { id: 16, teamCode: "MAR", opponent: "HAI", group: "C", stadium: "Bank of America Stadium", date: "20 June 2026", price: "$140", available: true },
+  { id: 17, teamCode: "MAR", opponent: "SCO", group: "C", stadium: "Lincoln Financial Field", date: "23 June 2026", price: "$150", available: true },
+  { id: 18, teamCode: "HAI", opponent: "SCO", group: "C", stadium: "Arrowhead Stadium", date: "26 June 2026", price: "$110", available: true },
+
+  // GROUP D
+  { id: 19, teamCode: "USA", opponent: "PAR", group: "D", stadium: "MetLife Stadium", date: "12 June 2026", price: "$180", available: true },
+  { id: 20, teamCode: "USA", opponent: "AUS", group: "D", stadium: "SoFi Stadium", date: "15 June 2026", price: "$170", available: true },
+  { id: 21, teamCode: "USA", opponent: "TUR", group: "D", stadium: "AT&T Stadium", date: "18 June 2026", price: "$175", available: true },
+  { id: 22, teamCode: "PAR", opponent: "AUS", group: "D", stadium: "NRG Stadium", date: "20 June 2026", price: "$130", available: true },
+  { id: 23, teamCode: "PAR", opponent: "TUR", group: "D", stadium: "Levi's Stadium", date: "23 June 2026", price: "$140", available: true },
+  { id: 24, teamCode: "AUS", opponent: "TUR", group: "D", stadium: "Hard Rock Stadium", date: "26 June 2026", price: "$150", available: true },
+
+  // GROUP E
+  { id: 25, teamCode: "GER", opponent: "CUW", group: "E", stadium: "Allianz Arena", date: "12 June 2026", price: "$190", available: true },
+  { id: 26, teamCode: "GER", opponent: "CIV", group: "E", stadium: "Signal Iduna Park", date: "15 June 2026", price: "$200", available: true },
+  { id: 27, teamCode: "GER", opponent: "ECU", group: "E", stadium: "Mercedes-Benz Stadium", date: "18 June 2026", price: "$185", available: true },
+  { id: 28, teamCode: "CUW", opponent: "CIV", group: "E", stadium: "Rose Bowl", date: "20 June 2026", price: "$120", available: true },
+  { id: 29, teamCode: "CUW", opponent: "ECU", group: "E", stadium: "Lumen Field", date: "23 June 2026", price: "$125", available: true },
+  { id: 30, teamCode: "CIV", opponent: "ECU", group: "E", stadium: "Camping World Stadium", date: "26 June 2026", price: "$150", available: true },
+
+  // GROUP F
+  { id: 31, teamCode: "NED", opponent: "JPN", group: "F", stadium: "Johan Cruyff Arena", date: "12 June 2026", price: "$180", available: true },
+  { id: 32, teamCode: "NED", opponent: "SWE", group: "F", stadium: "Rose Bowl Stadium", date: "15 June 2026", price: "$175", available: true },
+  { id: 33, teamCode: "NED", opponent: "TUN", group: "F", stadium: "MetLife Stadium", date: "18 June 2026", price: "$170", available: true },
+  { id: 34, teamCode: "JPN", opponent: "SWE", group: "F", stadium: "Levi's Stadium", date: "20 June 2026", price: "$140", available: true },
+  { id: 35, teamCode: "JPN", opponent: "TUN", group: "F", stadium: "Hard Rock Stadium", date: "23 June 2026", price: "$145", available: true },
+  { id: 36, teamCode: "SWE", opponent: "TUN", group: "F", stadium: "Gillette Stadium", date: "26 June 2026", price: "$135", available: true },
+
+  // GROUP G
+  { id: 37, teamCode: "BEL", opponent: "EGY", group: "G", stadium: "King Baudouin Stadium", date: "12 June 2026", price: "$190", available: true },
+  { id: 38, teamCode: "BEL", opponent: "IRN", group: "G", stadium: "AT&T Stadium", date: "15 June 2026", price: "$185", available: true },
+  { id: 39, teamCode: "BEL", opponent: "NZL", group: "G", stadium: "MetLife Stadium", date: "18 June 2026", price: "$180", available: true },
+  { id: 40, teamCode: "EGY", opponent: "IRN", group: "G", stadium: "NRG Stadium", date: "20 June 2026", price: "$130", available: true },
+  { id: 41, teamCode: "EGY", opponent: "NZL", group: "G", stadium: "Levi's Stadium", date: "23 June 2026", price: "$135", available: true },
+  { id: 42, teamCode: "IRN", opponent: "NZL", group: "G", stadium: "Hard Rock Stadium", date: "26 June 2026", price: "$125", available: true },
+
+  // GROUP H
+  { id: 43, teamCode: "ESP", opponent: "CPV", group: "H", stadium: "Camp Nou", date: "12 June 2026", price: "$210", available: true },
+  { id: 44, teamCode: "ESP", opponent: "KSA", group: "H", stadium: "Santiago Bernabéu", date: "15 June 2026", price: "$205", available: true },
+  { id: 45, teamCode: "ESP", opponent: "URU", group: "H", stadium: "Levi's Stadium", date: "18 June 2026", price: "$220", available: true },
+  { id: 46, teamCode: "CPV", opponent: "KSA", group: "H", stadium: "Lumen Field", date: "20 June 2026", price: "$120", available: true },
+  { id: 47, teamCode: "CPV", opponent: "URU", group: "H", stadium: "Bank of America Stadium", date: "23 June 2026", price: "$130", available: true },
+  { id: 48, teamCode: "KSA", opponent: "URU", group: "H", stadium: "Arrowhead Stadium", date: "26 June 2026", price: "$150", available: true },
+
+  // GROUP I
+  { id: 49, teamCode: "FRA", opponent: "SEN", group: "I", stadium: "Stade de France", date: "12 June 2026", price: "$230", available: true },
+  { id: 50, teamCode: "FRA", opponent: "NOR", group: "I", stadium: "Parc des Princes", date: "15 June 2026", price: "$220", available: true },
+  { id: 51, teamCode: "FRA", opponent: "IRQ", group: "I", stadium: "SoFi Stadium", date: "18 June 2026", price: "$210", available: true },
+  { id: 52, teamCode: "SEN", opponent: "NOR", group: "I", stadium: "Hard Rock Stadium", date: "20 June 2026", price: "$140", available: true },
+  { id: 53, teamCode: "SEN", opponent: "IRQ", group: "I", stadium: "MetLife Stadium", date: "23 June 2026", price: "$145", available: true },
+  { id: 54, teamCode: "NOR", opponent: "IRQ", group: "I", stadium: "Gillette Stadium", date: "26 June 2026", price: "$135", available: true },
+
+  // GROUP J
+  { id: 55, teamCode: "ARG", opponent: "ALG", group: "J", stadium: "Monumental Stadium", date: "12 June 2026", price: "$240", available: true },
+  { id: 56, teamCode: "ARG", opponent: "AUT", group: "J", stadium: "La Bombonera", date: "15 June 2026", price: "$235", available: true },
+  { id: 57, teamCode: "ARG", opponent: "JOR", group: "J", stadium: "MetLife Stadium", date: "18 June 2026", price: "$250", available: true },
+  { id: 58, teamCode: "ALG", opponent: "AUT", group: "J", stadium: "NRG Stadium", date: "20 June 2026", price: "$140", available: true },
+  { id: 59, teamCode: "ALG", opponent: "JOR", group: "J", stadium: "Levi's Stadium", date: "23 June 2026", price: "$145", available: true },
+  { id: 60, teamCode: "AUT", opponent: "JOR", group: "J", stadium: "Hard Rock Stadium", date: "26 June 2026", price: "$150", available: true },
+
+  // GROUP K
+  { id: 61, teamCode: "POR", opponent: "COD", group: "K", stadium: "Estádio da Luz", date: "12 June 2026", price: "$210", available: true },
+  { id: 62, teamCode: "POR", opponent: "UZB", group: "K", stadium: "Dragão Stadium", date: "15 June 2026", price: "$205", available: true },
+  { id: 63, teamCode: "POR", opponent: "COL", group: "K", stadium: "SoFi Stadium", date: "18 June 2026", price: "$220", available: true },
+  { id: 64, teamCode: "COD", opponent: "UZB", group: "K", stadium: "Hard Rock Stadium", date: "20 June 2026", price: "$130", available: true },
+  { id: 65, teamCode: "COD", opponent: "COL", group: "K", stadium: "MetLife Stadium", date: "23 June 2026", price: "$140", available: true },
+  { id: 66, teamCode: "UZB", opponent: "COL", group: "K", stadium: "Gillette Stadium", date: "26 June 2026", price: "$145", available: true },
+
+  // GROUP L
+  { id: 67, teamCode: "ENG", opponent: "CRO", group: "L", stadium: "Wembley Stadium", date: "12 June 2026", price: "$250", available: true },
+  { id: 68, teamCode: "ENG", opponent: "GHA", group: "L", stadium: "Old Trafford", date: "15 June 2026", price: "$240", available: true },
+  { id: 69, teamCode: "ENG", opponent: "PAN", group: "L", stadium: "Tottenham Hotspur Stadium", date: "18 June 2026", price: "$230", available: true },
+  { id: 70, teamCode: "CRO", opponent: "GHA", group: "L", stadium: "Levi's Stadium", date: "20 June 2026", price: "$150", available: true },
+  { id: 71, teamCode: "CRO", opponent: "PAN", group: "L", stadium: "Lincoln Financial Field", date: "23 June 2026", price: "$145", available: true },
+  { id: 72, teamCode: "GHA", opponent: "PAN", group: "L", stadium: "Arrowhead Stadium", date: "26 June 2026", price: "$135", available: true },
 ];
