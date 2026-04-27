@@ -82,7 +82,9 @@ const TeamDetails = () => {
             </div>
           ))}
         </div>
-        <ShowTickets selectedTeam ={selectedTeam}/>
+        <div className="text-center items-center mt-5 mb-5">
+          <h1 className="text-2xl text-red-500 font-mono font-bold">Will be added Related Match Ticket</h1>
+        </div>
       </div>
       
       
