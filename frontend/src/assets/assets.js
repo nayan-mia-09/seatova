@@ -1569,3 +1569,247 @@ export const hostCountry = [
     ]
   }
 ];
+
+// Host Cities and venues Data
+export const hostcitiesvenues = [
+  // Canada
+  {
+    country: "Canada",
+    city: "Toronto",
+    venue: "BMO Field",
+    stadium_code: "TOR",
+    capacity: "45,000+"
+  },
+  {
+    country: "Canada",
+    city: "Vancouver",
+    venue: "BC Place",
+    stadium_code: "VAN",
+    capacity: "54,000+"
+  },
+
+  // Mexico
+  {
+    country: "Mexico",
+    city: "Mexico City",
+    venue: "Estadio Azteca",
+    stadium_code: "MEX",
+    capacity: "87,000+"
+  },
+  {
+    country: "Mexico",
+    city: "Guadalajara",
+    venue: "Estadio Akron",
+    stadium_code: "GDL",
+    capacity: "49,000+"
+  },
+  {
+    country: "Mexico",
+    city: "Monterrey",
+    venue: "Estadio BBVA",
+    stadium_code: "MTY",
+    capacity: "53,000+"
+  },
+
+  // United States
+  {
+    country: "United States",
+    city: "Atlanta",
+    venue: "M-Benz Stadium",
+    stadium_code: "ATL",
+    capacity: "71,000+"
+  },
+  {
+    country: "United States",
+    city: "Boston",
+    venue: "Gillette Stadium",
+    stadium_code: "BOS",
+    capacity: "65,000+"
+  },
+  {
+    country: "United States",
+    city: "Dallas",
+    venue: "AT&T Stadium",
+    stadium_code: "DAL",
+    capacity: "80,000+"
+  },
+  {
+    country: "United States",
+    city: "Houston",
+    venue: "NRG Stadium",
+    stadium_code: "HOU",
+    capacity: "72,000+"
+  },
+  {
+    country: "United States",
+    city: "Kansas City",
+    venue: "GEHA Field",
+    stadium_code: "KNC",
+    capacity: "76,000+"
+  },
+  {
+    country: "United States",
+    city: "Los Angeles",
+    venue: "SoFi Stadium",
+    stadium_code: "LAC",
+    capacity: "70,000+"
+  },
+  {
+    country: "United States",
+    city: "Miami",
+    venue: "HR Stadium",
+    stadium_code: "MIA",
+    capacity: "65,000+"
+  },
+  {
+    country: "United States",
+    city: "New York",
+    venue: "MetLife Stadium",
+    stadium_code: "NYC",
+    capacity: "82,000+"
+  },
+  {
+    country: "United States",
+    city: "Philadelphia",
+    venue: "Lincoln F. Field",
+    stadium_code: "PHI",
+    capacity: "69,000+"
+  },
+  {
+    country: "United States",
+    city: "San Francisco",
+    venue: "Levi's Stadium",
+    stadium_code: "SFC",
+    capacity: "68,000+"
+  },
+  {
+    country: "United States",
+    city: "Seattle",
+    venue: "Lumen Field",
+    stadium_code: "SEA",
+    capacity: "69,000+"
+  }
+];
+
+// All Group Data
+export const worldCupGroups = [
+  {
+    group: "Group A",
+    teams: [
+      { name: "Mexico", code: "MEX", flag: mexico_flag },
+      { name: "South Korea", code: "KOR", flag: korea_flag },
+      { name: "South Africa", code: "RSA", flag: southafrica_flag },
+      { name: "Czechia", code: "CZE", flag: czechia_flag }
+    ]
+  },
+
+  {
+    group: "Group B",
+    teams: [
+      { name: "Canada", code: "CAN", flag: canada_flag },
+      { name: "Switzerland", code: "SUI", flag: switzerland_flag },
+      { name: "Qatar", code: "QAT", flag: qatar_flag },
+      { name: "Bosnia & Herzegovina", code: "BIH", flag: bosnia_flag }
+    ]
+  },
+
+  {
+    group: "Group C",
+    teams: [
+      { name: "Brazil", code: "BRA", flag: brazil_flag },
+      { name: "Morocco", code: "MAR", flag: morocco_flag },
+      { name: "Scotland", code: "SCO", flag: scotland_flag },
+      { name: "Haiti", code: "HAI", flag: haiti_flag }
+    ]
+  },
+
+  {
+    group: "Group D",
+    teams: [
+      { name: "USA", code: "USA", flag: usa_flag },
+      { name: "Australia", code: "AUS", flag: australia_flag },
+      { name: "Paraguay", code: "PAR", flag: paraguay_flag },
+      { name: "Türkiye", code: "TUR", flag: turkey_flag }
+    ]
+  },
+
+  {
+    group: "Group E",
+    teams: [
+      { name: "Germany", code: "GER", flag: germany_flag },
+      { name: "Ecuador", code: "ECU", flag: ecuador_flag },
+      { name: "Côte d’Ivoire", code: "CIV", flag: cotdivore_flag },
+      { name: "Curaçao", code: "CUW", flag: curacao_flag }
+    ]
+  },
+
+  {
+    group: "Group F",
+    teams: [
+      { name: "Netherlands", code: "NED", flag: nederlands_flag },
+      { name: "Japan", code: "JPN", flag: japan_flag },
+      { name: "Tunisia", code: "TUN", flag: tunisia_flag },
+      { name: "Sweden", code: "SWE", flag: sweden_flag }
+    ]
+  },
+
+  {
+    group: "Group G",
+    teams: [
+      { name: "Belgium", code: "BEL", flag: belgium_flag },
+      { name: "Iran", code: "IRN", flag: iran_flag },
+      { name: "Egypt", code: "EGY", flag: egypt_flag },
+      { name: "New Zealand", code: "NZL", flag: newzealand_flag }
+    ]
+  },
+
+  {
+    group: "Group H",
+    teams: [
+      { name: "Spain", code: "ESP", flag: espain_flag },
+      { name: "Uruguay", code: "URU", flag: uruguay_flag },
+      { name: "Saudi Arabia", code: "KSA", flag: saudia_flag },
+      { name: "Cape Verde", code: "CPV", flag: capeverde_flag }
+    ]
+  },
+
+  {
+    group: "Group I",
+    teams: [
+      { name: "France", code: "FRA", flag: france_flag },
+      { name: "Senegal", code: "SEN", flag: senegal_flag },
+      { name: "Norway", code: "NOR", flag: norway_flag },
+      { name: "Iraq", code: "IRQ", flag: iraq_flag }
+    ]
+  },
+
+  {
+    group: "Group J",
+    teams: [
+      { name: "Argentina", code: "ARG", flag: argentina_flag },
+      { name: "Austria", code: "AUT", flag: austria_flag },
+      { name: "Algeria", code: "ALG", flag: algeria_flag },
+      { name: "Jordan", code: "JOR", flag: jordern_flag }
+    ]
+  },
+
+  {
+    group: "Group K",
+    teams: [
+      { name: "Portugal", code: "POR", flag: portugal_flag },
+      { name: "Colombia", code: "COL", flag: colombia_flag },
+      { name: "Uzbekistan", code: "UZB", flag: uzbekistan_flag },
+      { name: "DR Congo", code: "COD", flag: congo_flag }
+    ]
+  },
+
+  {
+    group: "Group L",
+    teams: [
+      { name: "England", code: "ENG", flag: england_flag },
+      { name: "Croatia", code: "CRO", flag: crotia_flag },
+      { name: "Panama", code: "PAN", flag: panama_flag },
+      { name: "Ghana", code: "GHA", flag: ghana_flag }
+    ]
+  }
+];
