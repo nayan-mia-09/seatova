@@ -1,9 +1,13 @@
+import LiveScore from "../components/LiveScore"
+import ScoreCard from "../components/ScoreCard"
+
 
 
 const Football = () => {
   return (
     <div className="container mx-auto">
-      <h1>Football Page Work in progress......</h1>
+      <LiveScore/>
+      <ScoreCard/>
     </div>
   )
 }
