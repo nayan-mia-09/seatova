@@ -1,6 +1,5 @@
 import { useNavigate, useParams } from "react-router-dom";
 import { allTeamsData } from "../assets/assets";
-import ShowTickets from "../components/ShowTickets.jsx";
 
 const TeamDetails = () => {
   const navigate = useNavigate(false)

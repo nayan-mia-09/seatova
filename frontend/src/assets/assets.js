@@ -1813,3 +1813,102 @@ export const worldCupGroups = [
     ]
   }
 ];
+
+// All Match Tickets Data
+export const matches = [
+  // ── GROUP A ──────────────────────────────────────────────────────────────────
+  { id:1,  group:"A", home:"Mexico",       homeFlag:mexico_flag,       away:"South Africa", awayFlag:southafrica_flag, date:"Jun 11", time:"19:00", venue:"Estadio Azteca",       city:"Mexico City",    section:"Section Norte A1", row:"Row 8",  price:120, status:"few"       },
+  { id:2,  group:"A", home:"South Korea",  homeFlag:korea_flag,        away:"Czechia",      awayFlag:czechia_flag,     date:"Jun 12", time:"15:00", venue:"SoFi Stadium",         city:"Inglewood",      section:"Section 210",      row:"Row 14", price:95,  status:"available"  },
+  { id:3,  group:"A", home:"Mexico",       homeFlag:mexico_flag,       away:"South Korea",  awayFlag:korea_flag,       date:"Jun 18", time:"18:00", venue:"Estadio Guadalajara",  city:"Guadalajara",    section:"Section Tribuna",  row:"Row 5",  price:110, status:"available"  },
+  { id:4,  group:"A", home:"South Africa", homeFlag:southafrica_flag,  away:"Czechia",      awayFlag:czechia_flag,     date:"Jun 18", time:"18:00", venue:"AT&T Stadium",         city:"Arlington",      section:"Section 302",      row:"Row 11", price:80,  status:"available"  },
+  { id:5,  group:"A", home:"South Africa", homeFlag:southafrica_flag,  away:"South Korea",  awayFlag:korea_flag,       date:"Jun 24", time:"21:00", venue:"Estadio Azteca",       city:"Mexico City",    section:"Section Sur B2",   row:"Row 3",  price:90,  status:"sold"       },
+  { id:6,  group:"A", home:"Czechia",      homeFlag:czechia_flag,      away:"Mexico",       awayFlag:mexico_flag,      date:"Jun 24", time:"21:00", venue:"Rose Bowl",            city:"Pasadena",       section:"Section 19-L",     row:"Row 22", price:105, status:"available"  },
+ 
+  // ── GROUP B ──────────────────────────────────────────────────────────────────
+  { id:7,  group:"B", home:"Canada",         homeFlag:canada_flag,      away:"Bosnia & Herz.", awayFlag:bosnia_flag,      date:"Jun 12", time:"15:00", venue:"BMO Field",        city:"Toronto",      section:"Section 126", row:"Row 7",  price:100, status:"few"      },
+  { id:8,  group:"B", home:"Qatar",           homeFlag:qatar_flag,       away:"Switzerland",    awayFlag:switzerland_flag, date:"Jun 13", time:"15:00", venue:"Levi's Stadium",  city:"Santa Clara",  section:"Section 108", row:"Row 9",  price:85,  status:"available" },
+  { id:9,  group:"B", home:"Switzerland",     homeFlag:switzerland_flag, away:"Bosnia & Herz.", awayFlag:bosnia_flag,      date:"Jun 18", time:"15:00", venue:"SoFi Stadium",    city:"Inglewood",    section:"Section 324", row:"Row 4",  price:75,  status:"available" },
+  { id:10, group:"B", home:"Canada",          homeFlag:canada_flag,      away:"Qatar",          awayFlag:qatar_flag,       date:"Jun 18", time:"18:00", venue:"BC Place",        city:"Vancouver",    section:"Section 232", row:"Row 12", price:90,  status:"available" },
+  { id:11, group:"B", home:"Switzerland",     homeFlag:switzerland_flag, away:"Canada",         awayFlag:canada_flag,      date:"Jun 24", time:"15:00", venue:"BC Place",        city:"Vancouver",    section:"Section 115", row:"Row 6",  price:95,  status:"sold"      },
+  { id:12, group:"B", home:"Bosnia & Herz.",  homeFlag:bosnia_flag,      away:"Qatar",          awayFlag:qatar_flag,       date:"Jun 24", time:"15:00", venue:"Lumen Field",     city:"Seattle",      section:"Section 312", row:"Row 18", price:70,  status:"available" },
+ 
+  // ── GROUP C ──────────────────────────────────────────────────────────────────
+  { id:13, group:"C", home:"Brazil",   homeFlag:brazil_flag,   away:"Morocco",  awayFlag:morocco_flag,  date:"Jun 13", time:"18:00", venue:"MetLife Stadium",   city:"East Rutherford", section:"Section 110", row:"Row 2",  price:180, status:"few"      },
+  { id:14, group:"C", home:"Haiti",    homeFlag:haiti_flag,    away:"Scotland", awayFlag:scotland_flag, date:"Jun 13", time:"21:00", venue:"Gillette Stadium",  city:"Foxboro",         section:"Section 115", row:"Row 15", price:65,  status:"available" },
+  { id:15, group:"C", home:"Brazil",   homeFlag:brazil_flag,   away:"Haiti",    awayFlag:haiti_flag,    date:"Jun 19", time:"18:00", venue:"Hard Rock Stadium", city:"Miami",           section:"Section 130", row:"Row 7",  price:150, status:"available" },
+  { id:16, group:"C", home:"Morocco",  homeFlag:morocco_flag,  away:"Scotland", awayFlag:scotland_flag, date:"Jun 19", time:"18:00", venue:"MetLife Stadium",   city:"East Rutherford", section:"Section 202", row:"Row 11", price:90,  status:"available" },
+  { id:17, group:"C", home:"Morocco",  homeFlag:morocco_flag,  away:"Haiti",    awayFlag:haiti_flag,    date:"Jun 25", time:"21:00", venue:"Lincoln Financial", city:"Philadelphia",    section:"Section 105", row:"Row 9",  price:80,  status:"sold"      },
+  { id:18, group:"C", home:"Scotland", homeFlag:scotland_flag, away:"Brazil",   awayFlag:brazil_flag,   date:"Jun 25", time:"21:00", venue:"Gillette Stadium",  city:"Foxboro",         section:"Section 222", row:"Row 3",  price:160, status:"available" },
+ 
+  // ── GROUP D ──────────────────────────────────────────────────────────────────
+  { id:19, group:"D", home:"United States", homeFlag:usa_flag,       away:"Paraguay",      awayFlag:paraguay_flag,  date:"Jun 12", time:"21:00", venue:"SoFi Stadium",   city:"Inglewood",    section:"Section 303", row:"Row 5",  price:200, status:"few"      },
+  { id:20, group:"D", home:"Australia",     homeFlag:australia_flag, away:"Türkiye",       awayFlag:turkey_flag,    date:"Jun 13", time:"00:00", venue:"BC Place",       city:"Vancouver",    section:"Section 117", row:"Row 13", price:85,  status:"available" },
+  { id:21, group:"D", home:"United States", homeFlag:usa_flag,       away:"Australia",     awayFlag:australia_flag, date:"Jun 19", time:"15:00", venue:"Lumen Field",    city:"Seattle",      section:"Section 101", row:"Row 8",  price:185, status:"available" },
+  { id:22, group:"D", home:"Türkiye",       homeFlag:turkey_flag,    away:"Paraguay",      awayFlag:paraguay_flag,  date:"Jun 19", time:"23:00", venue:"Levi's Stadium", city:"Santa Clara",  section:"Section 209", row:"Row 17", price:80,  status:"available" },
+  { id:23, group:"D", home:"Türkiye",       homeFlag:turkey_flag,    away:"United States", awayFlag:usa_flag,       date:"Jun 25", time:"22:00", venue:"SoFi Stadium",   city:"Inglewood",    section:"Section 318", row:"Row 4",  price:195, status:"sold"      },
+  { id:24, group:"D", home:"Paraguay",      homeFlag:paraguay_flag,  away:"Australia",     awayFlag:australia_flag, date:"Jun 25", time:"22:00", venue:"Levi's Stadium", city:"Santa Clara",  section:"Section 114", row:"Row 20", price:78,  status:"available" },
+ 
+  // ── GROUP E ──────────────────────────────────────────────────────────────────
+  { id:25, group:"E", home:"Germany",     homeFlag:germany_flag,    away:"Curaçao",     awayFlag:curacao_flag,   date:"Jun 13", time:"21:00", venue:"MetLife Stadium",       city:"East Rutherford", section:"Section 112", row:"Row 6",  price:170, status:"few"      },
+  { id:26, group:"E", home:"Ivory Coast", homeFlag:cotdivore_flag,  away:"Ecuador",     awayFlag:ecuador_flag,   date:"Jun 14", time:"15:00", venue:"AT&T Stadium",          city:"Arlington",       section:"Section 220", row:"Row 10", price:90,  status:"available" },
+  { id:27, group:"E", home:"Germany",     homeFlag:germany_flag,    away:"Ivory Coast", awayFlag:cotdivore_flag, date:"Jun 20", time:"18:00", venue:"Lincoln Financial",     city:"Philadelphia",    section:"Section 108", row:"Row 4",  price:155, status:"available" },
+  { id:28, group:"E", home:"Ecuador",     homeFlag:ecuador_flag,    away:"Curaçao",     awayFlag:curacao_flag,   date:"Jun 20", time:"18:00", venue:"Camping World Stadium", city:"Orlando",         section:"Section 102", row:"Row 9",  price:70,  status:"available" },
+  { id:29, group:"E", home:"Ecuador",     homeFlag:ecuador_flag,    away:"Germany",     awayFlag:germany_flag,   date:"Jun 26", time:"21:00", venue:"MetLife Stadium",       city:"East Rutherford", section:"Section 306", row:"Row 7",  price:160, status:"sold"      },
+  { id:30, group:"E", home:"Curaçao",     homeFlag:curacao_flag,    away:"Ivory Coast", awayFlag:cotdivore_flag, date:"Jun 26", time:"21:00", venue:"AT&T Stadium",          city:"Arlington",       section:"Section 415", row:"Row 14", price:75,  status:"available" },
+ 
+  // ── GROUP F ──────────────────────────────────────────────────────────────────
+  { id:31, group:"F", home:"Argentina", homeFlag:argentina_flag, away:"Venezuela", awayFlag:uruguay_flag,   date:"Jun 14", time:"18:00", venue:"Rose Bowl",         city:"Pasadena",    section:"Section 16-L", row:"Row 5",  price:220, status:"few"      },
+  { id:32, group:"F", home:"Chile",     homeFlag:espain_flag,    away:"Nigeria",   awayFlag:ghana_flag,     date:"Jun 14", time:"21:00", venue:"Hard Rock Stadium", city:"Miami",       section:"Section 115",  row:"Row 12", price:85,  status:"available" },
+  { id:33, group:"F", home:"Argentina", homeFlag:argentina_flag, away:"Chile",     awayFlag:espain_flag,    date:"Jun 20", time:"21:00", venue:"NRG Stadium",       city:"Houston",     section:"Section 501",  row:"Row 3",  price:210, status:"available" },
+  { id:34, group:"F", home:"Nigeria",   homeFlag:ghana_flag,     away:"Venezuela", awayFlag:uruguay_flag,   date:"Jun 20", time:"21:00", venue:"Levi's Stadium",    city:"Santa Clara", section:"Section 210",  row:"Row 8",  price:80,  status:"available" },
+  { id:35, group:"F", home:"Nigeria",   homeFlag:ghana_flag,     away:"Argentina", awayFlag:argentina_flag, date:"Jun 26", time:"21:00", venue:"Rose Bowl",         city:"Pasadena",    section:"Section 9-L",  row:"Row 2",  price:200, status:"sold"      },
+  { id:36, group:"F", home:"Venezuela", homeFlag:uruguay_flag,   away:"Chile",     awayFlag:espain_flag,    date:"Jun 26", time:"21:00", venue:"Hard Rock Stadium", city:"Miami",       section:"Section 320",  row:"Row 16", price:80,  status:"available" },
+ 
+  // ── GROUP G ──────────────────────────────────────────────────────────────────
+  { id:37, group:"G", home:"Spain",        homeFlag:espain_flag,    away:"Colombia",   awayFlag:colombia_flag,  date:"Jun 15", time:"18:00", venue:"AT&T Stadium",          city:"Arlington", section:"Section 110", row:"Row 3",  price:175, status:"few"      },
+  { id:38, group:"G", home:"Cameroon",     homeFlag:senegal_flag,   away:"New Zealand",awayFlag:newzealand_flag,date:"Jun 15", time:"18:00", venue:"Camping World Stadium", city:"Orlando",   section:"Section 228", row:"Row 7",  price:60,  status:"available" },
+  { id:39, group:"G", home:"Spain",        homeFlag:espain_flag,    away:"Cameroon",   awayFlag:senegal_flag,   date:"Jun 21", time:"18:00", venue:"SoFi Stadium",          city:"Inglewood", section:"Section 110", row:"Row 5",  price:165, status:"available" },
+  { id:40, group:"G", home:"New Zealand",  homeFlag:newzealand_flag,away:"Colombia",   awayFlag:colombia_flag,  date:"Jun 21", time:"18:00", venue:"Levi's Stadium",        city:"Santa Clara",section:"Section 315", row:"Row 11", price:75,  status:"available" },
+  { id:41, group:"G", home:"New Zealand",  homeFlag:newzealand_flag,away:"Spain",      awayFlag:espain_flag,    date:"Jun 27", time:"21:00", venue:"MetLife Stadium",       city:"East Rutherford",section:"Section 104",row:"Row 4",price:160, status:"available" },
+  { id:42, group:"G", home:"Colombia",     homeFlag:colombia_flag,  away:"Cameroon",   awayFlag:senegal_flag,   date:"Jun 27", time:"21:00", venue:"AT&T Stadium",          city:"Arlington", section:"Section 318", row:"Row 9",  price:85,  status:"sold"      },
+ 
+  // ── GROUP H ──────────────────────────────────────────────────────────────────
+  { id:43, group:"H", home:"France",        homeFlag:france_flag,  away:"Uruguay",      awayFlag:uruguay_flag, date:"Jun 15", time:"21:00", venue:"Lumen Field",       city:"Seattle",         section:"Section 105", row:"Row 6",  price:190, status:"few"      },
+  { id:44, group:"H", home:"Tunisia",       homeFlag:tunisia_flag, away:"Saudi Arabia", awayFlag:saudia_flag,  date:"Jun 16", time:"15:00", venue:"NRG Stadium",       city:"Houston",         section:"Section 412", row:"Row 14", price:65,  status:"available" },
+  { id:45, group:"H", home:"France",        homeFlag:france_flag,  away:"Tunisia",      awayFlag:tunisia_flag, date:"Jun 22", time:"15:00", venue:"MetLife Stadium",   city:"East Rutherford", section:"Section 108", row:"Row 5",  price:160, status:"available" },
+  { id:46, group:"H", home:"Tunisia",       homeFlag:tunisia_flag, away:"Saudi Arabia", awayFlag:saudia_flag,  date:"Jun 22", time:"18:00", venue:"Rose Bowl",         city:"Pasadena",        section:"Section 20-L",row:"Row 16", price:70,  status:"available" },
+  { id:47, group:"H", home:"Tunisia",       homeFlag:tunisia_flag, away:"France",       awayFlag:france_flag,  date:"Jun 28", time:"21:00", venue:"Lincoln Financial", city:"Philadelphia",    section:"Section 315", row:"Row 7",  price:150, status:"sold"      },
+  { id:48, group:"H", home:"Saudi Arabia",  homeFlag:saudia_flag,  away:"Uruguay",      awayFlag:uruguay_flag, date:"Jun 28", time:"21:00", venue:"NRG Stadium",       city:"Houston",         section:"Section 228", row:"Row 11", price:80,  status:"available" },
+ 
+  // ── GROUP I ──────────────────────────────────────────────────────────────────
+  { id:49, group:"I", home:"England",    homeFlag:england_flag,    away:"Panama",     awayFlag:panama_flag,     date:"Jun 16", time:"18:00", venue:"Gillette Stadium",  city:"Foxboro",         section:"Section 106", row:"Row 4",  price:165, status:"few"      },
+  { id:50, group:"I", home:"Uzbekistan", homeFlag:uzbekistan_flag, away:"Ghana",      awayFlag:ghana_flag,      date:"Jun 16", time:"18:00", venue:"Lumen Field",       city:"Seattle",         section:"Section 302", row:"Row 13", price:65,  status:"available" },
+  { id:51, group:"I", home:"England",    homeFlag:england_flag,    away:"Uzbekistan", awayFlag:uzbekistan_flag, date:"Jun 22", time:"21:00", venue:"MetLife Stadium",   city:"East Rutherford", section:"Section 111", row:"Row 7",  price:150, status:"available" },
+  { id:52, group:"I", home:"Ghana",      homeFlag:ghana_flag,      away:"Panama",     awayFlag:panama_flag,     date:"Jun 22", time:"21:00", venue:"Gillette Stadium",  city:"Foxboro",         section:"Section 218", row:"Row 9",  price:70,  status:"available" },
+  { id:53, group:"I", home:"Ghana",      homeFlag:ghana_flag,      away:"England",    awayFlag:england_flag,    date:"Jun 28", time:"21:00", venue:"Lincoln Financial", city:"Philadelphia",    section:"Section 104", row:"Row 2",  price:140, status:"available" },
+  { id:54, group:"I", home:"Panama",     homeFlag:panama_flag,     away:"Uzbekistan", awayFlag:uzbekistan_flag, date:"Jun 28", time:"21:00", venue:"Lumen Field",       city:"Seattle",         section:"Section 224", row:"Row 15", price:60,  status:"sold"      },
+ 
+  // ── GROUP J ──────────────────────────────────────────────────────────────────
+  { id:55, group:"J", home:"Netherlands", homeFlag:nederlands_flag, away:"Egypt",    awayFlag:egypt_flag,     date:"Jun 16", time:"21:00", venue:"AT&T Stadium",      city:"Arlington",       section:"Section 120", row:"Row 6",  price:110, status:"available" },
+  { id:56, group:"J", home:"Iran",        homeFlag:iran_flag,       away:"DR Congo", awayFlag:congo_flag,     date:"Jun 17", time:"15:00", venue:"Hard Rock Stadium", city:"Miami",           section:"Section 330", row:"Row 11", price:65,  status:"available" },
+  { id:57, group:"J", home:"Netherlands", homeFlag:nederlands_flag, away:"Iran",     awayFlag:iran_flag,      date:"Jun 23", time:"18:00", venue:"SoFi Stadium",      city:"Inglewood",       section:"Section 308", row:"Row 5",  price:100, status:"few"       },
+  { id:58, group:"J", home:"Egypt",       homeFlag:egypt_flag,      away:"DR Congo", awayFlag:congo_flag,     date:"Jun 23", time:"18:00", venue:"AT&T Stadium",      city:"Arlington",       section:"Section 415", row:"Row 14", price:75,  status:"available" },
+  { id:59, group:"J", home:"Egypt",       homeFlag:egypt_flag,      away:"Iran",     awayFlag:iran_flag,      date:"Jun 29", time:"21:00", venue:"MetLife Stadium",   city:"East Rutherford", section:"Section 109", row:"Row 8",  price:80,  status:"available" },
+  { id:60, group:"J", home:"DR Congo",    homeFlag:congo_flag,      away:"Netherlands",awayFlag:nederlands_flag,date:"Jun 29",time:"21:00", venue:"Hard Rock Stadium", city:"Miami",           section:"Section 215", row:"Row 3",  price:95,  status:"sold"      },
+ 
+  // ── GROUP K ──────────────────────────────────────────────────────────────────
+  { id:61, group:"K", home:"Portugal",   homeFlag:portugal_flag,  away:"Iraq",       awayFlag:iraq_flag,      date:"Jun 17", time:"18:00", venue:"Rose Bowl",      city:"Pasadena",   section:"Section 11-L", row:"Row 4",  price:140, status:"few"      },
+  { id:62, group:"K", home:"Cabo Verde", homeFlag:capeverde_flag, away:"Jordan",     awayFlag:jordern_flag,   date:"Jun 17", time:"18:00", venue:"BC Place",       city:"Vancouver",  section:"Section 218",  row:"Row 10", price:60,  status:"available" },
+  { id:63, group:"K", home:"Portugal",   homeFlag:portugal_flag,  away:"Cabo Verde", awayFlag:capeverde_flag, date:"Jun 23", time:"21:00", venue:"Levi's Stadium", city:"Santa Clara",section:"Section 106",  row:"Row 6",  price:130, status:"available" },
+  { id:64, group:"K", home:"Jordan",     homeFlag:jordern_flag,   away:"Iraq",       awayFlag:iraq_flag,      date:"Jun 23", time:"21:00", venue:"Lumen Field",    city:"Seattle",    section:"Section 310",  row:"Row 12", price:65,  status:"available" },
+  { id:65, group:"K", home:"Jordan",     homeFlag:jordern_flag,   away:"Portugal",   awayFlag:portugal_flag,  date:"Jun 29", time:"21:00", venue:"BC Place",       city:"Vancouver",  section:"Section 114",  row:"Row 7",  price:120, status:"available" },
+  { id:66, group:"K", home:"Iraq",       homeFlag:iraq_flag,      away:"Cabo Verde", awayFlag:capeverde_flag, date:"Jun 29", time:"21:00", venue:"Lumen Field",    city:"Seattle",    section:"Section 322",  row:"Row 9",  price:55,  status:"sold"      },
+ 
+  // ── GROUP L ──────────────────────────────────────────────────────────────────
+  { id:67, group:"L", home:"Belgium", homeFlag:belgium_flag, away:"Croatia",  awayFlag:crotia_flag,  date:"Jun 17", time:"21:00", venue:"NRG Stadium",       city:"Houston",         section:"Section 501", row:"Row 3",  price:105, status:"available" },
+  { id:68, group:"L", home:"Egypt",   homeFlag:egypt_flag,   away:"Senegal",  awayFlag:senegal_flag, date:"Jun 18", time:"15:00", venue:"Gillette Stadium",  city:"Foxboro",         section:"Section 119", row:"Row 8",  price:85,  status:"available" },
+  { id:69, group:"L", home:"Belgium", homeFlag:belgium_flag, away:"Egypt",    awayFlag:egypt_flag,   date:"Jun 24", time:"18:00", venue:"MetLife Stadium",   city:"East Rutherford", section:"Section 210", row:"Row 5",  price:95,  status:"few"       },
+  { id:70, group:"L", home:"Croatia", homeFlag:crotia_flag,  away:"Senegal",  awayFlag:senegal_flag, date:"Jun 24", time:"18:00", venue:"NRG Stadium",       city:"Houston",         section:"Section 345", row:"Row 17", price:80,  status:"available" },
+  { id:71, group:"L", home:"Croatia", homeFlag:crotia_flag,  away:"Belgium",  awayFlag:belgium_flag, date:"Jun 30", time:"21:00", venue:"AT&T Stadium",      city:"Arlington",       section:"Section 112", row:"Row 6",  price:100, status:"available" },
+  { id:72, group:"L", home:"Senegal", homeFlag:senegal_flag, away:"Egypt",    awayFlag:egypt_flag,   date:"Jun 30", time:"21:00", venue:"Gillette Stadium",  city:"Foxboro",         section:"Section 226", row:"Row 13", price:75,  status:"sold"      },
+];
