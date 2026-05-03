@@ -6,7 +6,6 @@ import Competetion from "./pages/Competetion";
 import Football from "./pages/Football";
 import WorldCup2026 from "./pages/WorldCup2026";
 import Login from "./pages/Login";
-import SignUp from "./pages/SignUp";
 import TeamPage from "./components/TeamPage";
 import AllTicket from "./pages/AllTicket";
 import AllFootballTeams from "./pages/AllFootballTeams";
@@ -39,7 +38,6 @@ const App = () => {
             <Route path="/football" element={<Football />} />
             <Route path="/world-cup-2026" element={<WorldCup2026 />} />
             <Route path="/login" element={<Login />} />
-            <Route path="/sign-up" element={<SignUp />} />
             <Route path="/team-page" element={<TeamPage />} />
             <Route path="/all-tickets" element={<AllTicket />} />
             <Route path="/all-football-teams" element={<AllFootballTeams />} />
