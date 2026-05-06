@@ -158,6 +158,8 @@ import fifa_photo_3 from './fifa_3.jpg'
 import fifa_photo_4 from './fifa_4.jpg'
 import cross_icon from './close.png'
 import menu_icon from './menu.png'
+import profile_pic from './profile_pic.png'
+import dropdown_icon from './dropdown_icon.svg'
 
 import aston_news from './aston_news.avif'
 import barca_news from './barca_news.jpg'
@@ -182,7 +184,9 @@ const assets = {
   fifa_photo_3,
   fifa_photo_4,
   cross_icon,
-  menu_icon
+  menu_icon,
+  profile_pic,
+  dropdown_icon
 }
 
 export const heroImg = [

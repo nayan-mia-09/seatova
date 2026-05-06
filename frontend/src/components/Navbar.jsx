@@ -5,7 +5,7 @@ import assets from "../assets/assets"
 
 const Navbar = () => {
     const navigate = useNavigate()
-
+    const [token,setToken] = useState(true)
     const [showMenu, setShowMenu] = useState(false)
   return (
 
@@ -18,8 +18,8 @@ const Navbar = () => {
       {/* nav links */}
       <li>
     <NavLink to="/" end className={({ isActive }) =>
-      `px-4 py-2 hover:bg-pink-200 hover:rounded-lg cursor-pointer block ${
-        isActive ? "bg-pink-300 rounded-lg font-semibold" : ""
+      `px-4 py-2 cursor-pointer block ${
+        isActive ? "text-black font-bold border-b-2 border-b-emerald-400" : ""
       }`
     }>
       Home
@@ -28,8 +28,8 @@ const Navbar = () => {
 
   <li>
     <NavLink to="/football" className={({ isActive }) =>
-      `px-4 py-2 hover:bg-pink-200 hover:rounded-lg cursor-pointer block ${
-        isActive ? "bg-pink-300 rounded-lg font-semibold" : ""
+      `px-4 py-2 cursor-pointer block ${
+        isActive ? "text-black font-bold border-b-2 border-b-emerald-400" : ""
       }`
     }>
       Football
@@ -38,8 +38,8 @@ const Navbar = () => {
 
   <li>
     <NavLink to="/all-tickets" className={({ isActive }) =>
-      `px-4 py-2 hover:bg-pink-200 hover:rounded-lg cursor-pointer block ${
-        isActive ? "bg-pink-300 rounded-lg font-semibold" : ""
+      `px-4 py-2 cursor-pointer block ${
+        isActive ? "text-black  font-bold border-b-2 border-b-emerald-400" : ""
       }`
     }>
       Tickets
@@ -48,8 +48,8 @@ const Navbar = () => {
 
   <li>
     <NavLink to="/all-football-teams" className={({ isActive }) =>
-      `px-4 py-2 hover:bg-pink-200 hover:rounded-lg cursor-pointer block ${
-        isActive ? "bg-pink-300 rounded-lg font-semibold" : ""
+      `px-4 py-2 cursor-pointer block ${
+        isActive ? "text-black font-bold border-b-2 border-b-emerald-400" : ""
       }`
     }>
       Teams
@@ -58,8 +58,8 @@ const Navbar = () => {
 
   <li>
     <NavLink to="/world-cup-2026" className={({ isActive }) =>
-      `px-4 py-2 hover:bg-pink-200 hover:rounded-lg cursor-pointer block ${
-        isActive ? "bg-pink-300 rounded-lg font-semibold" : ""
+      `px-4 py-2 cursor-pointer block ${
+        isActive ? "text-black font-bold border-b-2 border-b-emerald-400" : ""
       }`
     }>
       FWC 2026
@@ -71,10 +71,26 @@ const Navbar = () => {
   {/* Right side */}
   <div className="flex items-center gap-4">
     
-    {/* Sign in (desktop) */}
-    <a onClick={(()=>navigate('/login'))} className="hidden md:block bg-gray-200 px-4 py-2 rounded-xl cursor-pointer">
-      Sign in
-    </a>
+    {
+         token ? <div className="flex items-center gap-2 cursor-pointer group relative">
+                 <img src={assets.profile_pic} className="w-8 rounded-full" alt="" />
+                 <img src={assets.dropdown_icon} className="w-2.5" alt="" />
+                 <div className="absolute top-0 right-0 pt-14 text-base font-medium text-gray-600 z-20 hidden group-hover:block">
+                  <div className="min-w-48 bg-stone-100 rounded flex flex-col gap-4 p-4">
+                    <p onClick={()=>navigate('/my-profile')} className="hover:text-black cursor-pointer">My Profile</p>
+                    <p onClick={()=>navigate('/my-tickets')} className="hover:text-black cursor-pointer">My Tickets</p>
+                    <p onClick={()=>setToken(false)} className="hover:text-black cursor-pointer">Logout</p>
+                  </div>
+                    
+                 </div>
+         </div> : <div>
+          {/* Sign in (desktop) */}
+       <button onClick={(()=>navigate('/login'))} className="hidden md:block  bg-pink-300 px-4 py-2 rounded-full cursor-pointer">
+        Create account
+       </button>
+         </div>
+    }
+    
 
     {/* Mobile menu icon */}
     <img

@@ -19,6 +19,8 @@ import Header from "./components/Header";
 import SponsorsDetails from "./pages/SponsorsDetails";
 import TopTeamDetails from "./pages/TopTeamDetails";
 import TeamDetails from "./pages/TeamDetails";
+import MyProfile from "./pages/MyProfile";
+import MyTickets from "./pages/MyTickets";
 
 const App = () => {
   return (
@@ -48,6 +50,8 @@ const App = () => {
             <Route path="/club-details/:league_rank" element={<TopClubsDetails />} />
             <Route path="/news-details/:id" element={<NewsCardDetails />} />
             <Route path="/team-details/:code" element={<TeamDetails/>}/>
+            <Route path="/my-profile" element = {<MyProfile/>}/>
+            <Route path="/my-tickets" element = {<MyTickets/>}/>
           </Routes>
         </main>
 
