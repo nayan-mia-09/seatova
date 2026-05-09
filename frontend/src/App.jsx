@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Cities from "./pages/Cities";
@@ -21,10 +21,11 @@ import TopTeamDetails from "./pages/TopTeamDetails";
 import TeamDetails from "./pages/TeamDetails";
 import MyProfile from "./pages/MyProfile";
 import MyTickets from "./pages/MyTickets";
+import BuyTickets from "./pages/BuyTickets";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <>
       <div className="min-h-screen flex flex-col">
 
         {/* Header */}
@@ -52,6 +53,7 @@ const App = () => {
             <Route path="/team-details/:code" element={<TeamDetails/>}/>
             <Route path="/my-profile" element = {<MyProfile/>}/>
             <Route path="/my-tickets" element = {<MyTickets/>}/>
+            <Route path="/buy-tickets/:id" element = {<BuyTickets/>}/>
           </Routes>
         </main>
 
@@ -59,7 +61,7 @@ const App = () => {
         <Footer />
 
       </div>
-    </BrowserRouter>
+    </>
   );
 };
 

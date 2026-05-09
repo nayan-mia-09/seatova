@@ -1,10 +1,12 @@
 import { useNavigate } from "react-router-dom"
-import { allTeamsData } from "../assets/assets"
 import TeamPageHero from "./TeamPageHero"
+import { useContext } from "react"
+import { AppContext } from "../context/AppContext"
 
 
 const TeamPage = () => {
   const navigate = useNavigate(false)
+  const {allTeamsData} = useContext(AppContext)
   return (
     <div className="container mx-auto">
       <TeamPageHero/>

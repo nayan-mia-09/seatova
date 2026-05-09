@@ -1,9 +1,10 @@
 import { useNavigate } from "react-router-dom";
-import { topTeamsData } from "../assets/assets";
+import { useContext } from "react";
+import { AppContext } from "../context/AppContext";
 
 const TopTeam = () => {
   const navigate = useNavigate();
-
+  const {topTeamsData} = useContext(AppContext)
   return (
     <div className="mt-8 mb-8 px-4">
       

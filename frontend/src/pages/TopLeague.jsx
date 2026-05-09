@@ -9,12 +9,14 @@ import 'swiper/css/pagination';
 
 // import required modules
 import {Autoplay } from 'swiper/modules';
-import { topLeaguesData } from '../assets/assets';
 import { useNavigate } from 'react-router-dom';
+import { useContext } from 'react';
+import { AppContext } from '../context/AppContext';
 
 
 const TopLeague = () => {
   const navigate = useNavigate(false)
+  const {topLeaguesData} = useContext(AppContext)
   return (
     <div className='mt-5 mb-5'>
           <div className='mt-5 mb-5'>

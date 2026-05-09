@@ -1,9 +1,10 @@
 import { useNavigate } from "react-router-dom";
-import { topSponsorData } from "../assets/assets";
+import { useContext } from "react";
+import { AppContext } from "../context/AppContext";
 
 const TopSponsors = () => {
   const navigate = useNavigate();
-
+  const {topSponsorData} = useContext(AppContext)
   return (
     <div className="mt-8 mb-8 px-4">
       

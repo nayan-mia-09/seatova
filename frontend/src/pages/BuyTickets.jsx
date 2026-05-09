@@ -1,6 +1,7 @@
 import React from 'react'
 
-const TicketCard = () => {
+const BuyTickets = () => {
+    
   return (
     <div>
       
@@ -8,4 +9,4 @@ const TicketCard = () => {
   )
 }
 
-export default TicketCard
+export default BuyTickets
