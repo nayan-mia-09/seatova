@@ -188,7 +188,17 @@ const assets = {
   profile_pic,
   dropdown_icon
 }
-
+export const stadium = {
+  usa_stadium_1,
+  usa_stadium_2,
+  usa_stadium_3,
+  canada_stadium_1,
+  canada_stadium_2,
+  canada_stadium_3,
+  mexico_stadium_1,
+  mexico_stadium_2,
+  mexico_stadium_3
+}
 export const heroImg = [
   {name: "USA",
    photo: fifa_photo_1

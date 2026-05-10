@@ -1,9 +1,10 @@
 import React, { useContext, useState} from 'react'
 import TicketCard from './TicketCard'
 import { AppContext } from '../context/AppContext'
+import { useNavigate, useParams } from 'react-router-dom'
 
 const TicketsPage = () => {
-  
+  const navigate = useNavigate(false)
   const {matches} = useContext(AppContext);
   const group = ["all", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"]
    const [selectedGroup,setSelectedGroup] = useState('all');
@@ -28,7 +29,7 @@ const filteredMatches = matches.filter((match) => {
     
 
   return (
-    <div className='container mx-auto px-4 sm:px-6 lg:px-8 py-6'>
+    <div className='container mx-auto px-4 sm:px-6 lg:px-8 py-6' >
 
       {/* Top Info */}
       <div className='flex flex-wrap items-center gap-2 sm:gap-3 uppercase text-xs sm:text-sm text-gray-700 font-mono'>
@@ -101,6 +102,7 @@ const filteredMatches = matches.filter((match) => {
       <div className="mt-5 space-y-5">
       {filteredMatches.map((match, i) => (
         <div
+        onClick={()=>navigate(`/buy-tickets/${match.id}`)}
           key={i}
           className="border border-gray-200 rounded-2xl p-5 shadow-sm hover:shadow-lg transition-all duration-300 bg-white"
         >
