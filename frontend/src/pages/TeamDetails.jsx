@@ -86,7 +86,7 @@ const TeamDetails = () => {
         </div>
 
         {/* Same Group Tickets */}
-          <div className="mt-5 space-y-5">
+          <div className="mt-5 space-y-5 cursor-pointer">
         {
          sameGroupTickets.map((match,index)=>(
             <div key={index} 

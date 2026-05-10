@@ -99,7 +99,7 @@ const filteredMatches = matches.filter((match) => {
         </div>
       </div>
 
-      <div className="mt-5 space-y-5">
+      <div className="mt-5 space-y-5 cursor-pointer">
       {filteredMatches.map((match, i) => (
         <div
         onClick={()=>navigate(`/buy-tickets/${match.id}`)}

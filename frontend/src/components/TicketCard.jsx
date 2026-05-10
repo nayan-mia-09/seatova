@@ -12,7 +12,7 @@ const TicketCard = () => {
           <div>
             <h1 className='text-2xl sm:text-3xl md:text-4xl font-mono font-bold'>Top Matches</h1>
           </div>
-      <div className="mt-5 space-y-5">
+      <div className="mt-5 space-y-5 cursor-pointer">
         {
          topMatches.map((match,index)=>(
             <div key={index} 
